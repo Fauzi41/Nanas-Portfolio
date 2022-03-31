@@ -1,0 +1,28 @@
+{
+    "projects": [
+      {
+        "name": "Broadcasts",
+        "category": "Android",
+        "date": "Sep '15",
+        "short": "A",
+        "description": "An app to send out broadcasts to everyone within an organization/university. Think twitter of emails. It's different from emails because its less formal, it different from Facebook because its less casual and you have the entire university is just one broadcast away. A pubsub model at university level where users can subscribe to groups, receive notifications, event updates of those groups and keep their calendar updated, reminding them of upcoming events. Certain authenticated people have the rights to send out broadcasts to everyone within the org, and the others can create groups of their own.",
+        "link": "/code/broadcasts",
+        "weight": "1",
+        "status": "incomplete",
+        "tags": [
+          "Android",
+          "GCM",
+          "Slack"
+        ],
+        "photos": [
+          "/static/experiences/travel-18/img-3.jpg",
+          "/static/experiences/travel-18/img-4.jpg",
+          "/static/experiences/travel-18/img-5.jpg",
+          "/static/experiences/travel-18/img-1.jpg",
+          "/static/experiences/travel-18/img-2.jpg",
+          "/static/experiences/travel-18/img-6.jpg"
+        ]
+      }
+      
+    ]
+  }
