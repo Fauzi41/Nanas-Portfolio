@@ -1,0 +1,18 @@
+
+    {% if 'name' in project %}
+    <div class="col-lg-4 col-md-6 portfolio-item {{project['id_category']}}">
+        <div class="portfolio-wrap">
+        <img src={{project['photos'][0]}} class="img-fluid" alt="">
+        <div class="portfolio-info">
+            <!-- <h4>{{project['name']}}</h4> -->
+            <!-- <p>App</p> -->
+            <div class="portfolio-links">
+            <a href={{project['photos'][0]}} data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{project['name']}}"><i class="bx bx-plus"></i></a>
+            <a href="/portfolio-detail/{{project['id']}}" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+            </div>
+        </div>
+        </div>
+    </div>
+    {% endif %}
+    
+      
