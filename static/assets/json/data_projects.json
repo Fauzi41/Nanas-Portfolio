@@ -5,12 +5,14 @@
         "id" : "aiforheart",
         "id_category": "filter-web",
         "category" : "Website, AI",
-        "client" : "Yudha Andriano Rismawan's team",
+        "client" : "Yudha Andriano Rismawan and teams",
         "date": "Aug '21 - Oct '21",
         "short": "AI for Heart",
         "description": "Built website to diagnose coronary heart disease risk based on face recognition using Python Flask, OpenCV, Pandas and Tensorflow. Optimized time computation efficiency from machine learning's algorithm used by 25%. Performed application deployment on Google Cloud Platform using Google Cloud Run. Managed hosting and domain aiforheart.id during  PIMNAS's event.",
         "link": "Not Available for Public due Copyright HKI, Contact Me or Yudha if you have interested",
         "weight": "1",
+        "achievement": "Pekan Ilmiah Mahasiswa Nasional (PIMNAS) 2021",
+        "media": "https://www.murianews.com/2021/08/23/235272/keren-mahasiswa-unnes-sukses-bikin-program-pendeteksi-jantung-koroner-dari-foto-wajah",
         "status": "incomplete",
         "tags": [
           "Android",
@@ -29,11 +31,12 @@
         "id" : "codion",
         "id_category": "filter-web",
         "category" : "Website, Computer Vision",
-        "client" : "Personal Project",
+        "client" : "Anan Nugroho and teams",
         "date": "Sep '15",
-        "short": "A",
-        "description": "An app to send out broadcasts to everyone within an organization/university. Think twitter of emails. It's different from emails because its less formal, it different from Facebook because its less casual and you have the entire university is just one broadcast away. A pubsub model at university level where users can subscribe to groups, receive notifications, event updates of those groups and keep their calendar updated, reminding them of upcoming events. Certain authenticated people have the rights to send out broadcasts to everyone within the org, and the others can create groups of their own.",
-        "link": "/code/broadcasts",
+        "short": "Codion",
+        "description": "Codion is an application for detecting suspected cancerous object automatically using MoRbAC's Method. The MoRbAC method is a method for segmenting the entire object of an image combined with morphological operation to reduce errors in detecting suspected cancerous objects in ultrasound images.",
+        "link": "http://codion.herokuapp.com/",
+        "achievement": "Article Publication on Jurnal Informatika Polinema",
         "weight": "1",
         "status": "incomplete",
         "tags": [
@@ -42,20 +45,21 @@
           "Slack"
         ],
         "photos": [
-          "/static/assets/img/portfolio/portfolio-5.jpg",
-          "/static/assets/img/portfolio/portfolio-1.jpg"
+          "/static/assets/img/portfolio/codion/1.png",
+          "/static/assets/img/portfolio/codion/2.png",
+          "/static/assets/img/portfolio/codion/3.png"
         ]
       },
       {
-        "name": "3",
+        "name": "COVI | Corona VS Us",
         "id" : "id-3",
         "id_category": "filter-card",
         "category" : "Game",
-        "client" : "Personal Project",
-        "date": "Sep '15",
-        "short": "A",
-        "description": "An app to send out broadcasts to everyone within an organization/university. Think twitter of emails. It's different from emails because its less formal, it different from Facebook because its less casual and you have the entire university is just one broadcast away. A pubsub model at university level where users can subscribe to groups, receive notifications, event updates of those groups and keep their calendar updated, reminding them of upcoming events. Certain authenticated people have the rights to send out broadcasts to everyone within the org, and the others can create groups of their own.",
-        "link": "/code/broadcasts",
+        "client" : "Personal Project with Wahyu Adi Ramadhan",
+        "date": "Apr '20 - Jun '20",
+        "short": "COVI | Corona VS Us",
+        "description": "Built using Godot Game Engine and Figma. Participated at Lomba Aplikasi Mobile Kihajar 2020. Design game UI using Adobe XD and made video promotion and short walkthrough https://youtu.be/iytyFdXjBtg",
+        "link": "https://github.com/Fauzi41/covi",
         "weight": "1",
         "status": "incomplete",
         "tags": [
@@ -64,11 +68,58 @@
           "Slack"
         ],
         "photos": [
-          "/static/assets/img/portfolio/portfolio-3.jpg",
-          "/static/assets/img/portfolio/portfolio-2.jpg",
-          "/static/assets/img/portfolio/portfolio-8.jpg",
-          "/static/assets/img/portfolio/portfolio-9.jpg"
+          "/static/assets/img/portfolio/covi/1.png",
+          "/static/assets/img/portfolio/covi/2.png",
+          "/static/assets/img/portfolio/covi/3.jpg",
+          "/static/assets/img/portfolio/covi/4.jpg"
           
+        ]
+      },
+      {
+        "name": "KOBI | Kamus Online Bahasa Isyarat",
+        "id" : "kobi",
+        "id_category": "filter-app",
+        "category" : "Mobile Application",
+        "client" : "Personal Project x BPMPK",
+        "date": "Jan '20 - Mar '20",
+        "short": "KOBI | Kamus Online Bahasa Isyarat",
+        "description": "Built sign language dictionary app for android using Kotlin and Firebase with Android Studio tools. Databases images and informations from Kamus Sistem Isyarat Bahasa Indonesia's book to Firebase.",
+        "link": "https://github.com/Fauzi41/kobi",
+        "weight": "1",
+        "status": "incomplete",
+        "tags": [
+          "Android",
+          "GCM",
+          "Slack"
+        ],
+        "photos": [
+          "/static/assets/img/portfolio/kobi/1.jpg",
+          "/static/assets/img/portfolio/kobi/2.jpg",
+          "/static/assets/img/portfolio/kobi/3.jpg",
+          "/static/assets/img/portfolio/kobi/4.jpg"
+          
+        ]
+      },
+      {
+        "name": "This Site",
+        "id" : "portfolio",
+        "id_category": "filter-web",
+        "category" : "Website",
+        "client" : "Personal Project",
+        "date": "Apr '22 - Apr '22",
+        "short": "Portfolion Website",
+        "description": "Built with my lovely Python, Flask, Flask Mail, Databases JSON and beautiful Template by MyResume Designed by BootstrapMade",
+        "link": "https://github.com/Fauzi41/Nanas-Portfolio",
+        "weight": "1",
+        "status": "incomplete",
+        "tags": [
+          "Android",
+          "GCM",
+          "Slack"
+        ],
+        "photos": [
+          "/static/assets/img/portfolio/this-site/1.jpg",
+          "/static/assets/img/portfolio/this-site/2.jpg"
         ]
       }
       

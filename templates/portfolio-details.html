@@ -12,7 +12,7 @@
 
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
+              <div class="swiper-wrapper align-items-start">
 
                 {% for photo in project['photos']%}
                 <div class="swiper-slide">
@@ -31,7 +31,11 @@
                 <li><strong>Category</strong>: {{project['category']}}</li>
                 <li><strong>Client</strong>: {{project['client']}}</li>
                 <li><strong>Project date</strong>: {{project['date']}}</li>
-                <li><strong>Project URL</strong>: <a href="#">{{project['link']}}</a></li>
+                <li><strong>Project URL</strong>: <a href={{project['link']}} target="_blank">{{project['link']}}</a></li>
+                {% if project['achievement'] %}
+                <li><strong>Achievement</strong>: {{project['achievement']}}</li>
+                {% endif %}
+                
               </ul>
             </div>
             <div class="portfolio-description">
